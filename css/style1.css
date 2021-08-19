@@ -1,0 +1,294 @@
+
+.dot {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  margin-top: 480px;
+  margin-left: -60px;
+
+  border: solid .1px whitesmoke;
+  -moz-border-radius: 50px/50px;
+  -webkit-border-radius: 50px 50px;
+  cursor: none;
+}
+
+
+
+.mouse-circle{
+  height: 30px;
+  width: 19.5px;
+  border: solid .5px whitesmoke;
+  display: inline-block;
+  position: absolute;
+  margin-left: -38px;
+  margin-top: 496px;
+  border-radius: 36%;
+  cursor: none;
+
+}
+.circle-line{
+  height: 7.1px;
+  width: .5px;
+  background-color: whitesmoke;
+  border: solid .1px whitesmoke;
+
+  display: inline-block;
+  position: absolute;
+  margin-left: -29.2px;
+  margin-top: 500px;
+  border-radius: 35%;
+  cursor: none;
+
+}
+
+#circle-r:hover .dot{
+  height: 55px;
+  width: 55px;
+  margin-top: 485px;
+  margin-left: -56.5px;
+}
+
+#circle-r:hover .circle-line{
+  height: 5.1px;
+  width: 0.1px;
+  margin-top: 503.5px;
+  margin-left: -29px;
+
+}
+
+
+
+
+
+.letters{
+  display: inline-block;
+  position: absolute;
+  padding-bottom: 62px;
+  transform-origin: bottom center;
+  margin-top: 450px;
+  margin-left: -37px;
+
+  transition: .5s ease-out;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+  height: 1.6166em;
+  letter-spacing: 10px;
+  font-style: oblique;
+
+  -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+
+
+#letterOne{
+  transform: rotate(0deg);
+}
+#letterTwo{
+  transform: rotate(12deg);
+}
+#letterThree{
+  transform: rotate(24deg);
+}
+#letterFour{
+  transform: rotate(36deg);
+}
+#letterFive{
+  transform: rotate(48deg);
+}
+#letterSix{
+  transform: rotate(60deg);
+}
+#letterSeven{
+  transform: rotate(72deg);
+}
+#letterEight{
+  transform: rotate(84deg);
+}
+#letterNine{
+  transform: rotate(96deg);
+}
+#letterTen{
+  transform: rotate(108deg);
+}
+
+
+
+
+
+.social a {
+  font-size: 1.25em;
+  padding: 0rem;
+  padding-right: 1rem;
+}
+.fa-facebook {
+  color: #3b5998;
+
+}
+.fa-twitter {
+  color: #00aced;
+}
+.fa-instagram {
+  color: #dd4b39;
+}
+.fa-linkedin {
+  color: #0e76a8;
+}
+
+.fa-envelope{
+  color: #0e76a8;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-envelope:hover {
+  color: #d5d5d5;
+}
+.nline:hover .fa-envelope{
+  color: #d5d5d5;
+}
+
+
+
+.logo1{
+  height: 60px;
+  width: 60px;
+
+}
+
+
+.nline{
+    white-space: no-wrap;
+}
+
+
+
+
+
+.area{
+  background: black;  
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+  width: 100%;
+  height:100vh;
+  
+ 
+}
+
+.circles{
+  position: relative;
+  top: -100vh;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li{
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate_circle 25s linear infinite;
+  bottom: -150px;
+  
+}
+
+.circles li:nth-child(1){
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+
+
+@keyframes animate_circle {
+
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+  }
+
+  100%{
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+  }
+
+}

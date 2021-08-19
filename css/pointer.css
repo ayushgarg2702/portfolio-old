@@ -1,0 +1,182 @@
+.cursor {
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid #A9A9A9;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+    z-index: 0;
+    backdrop-filter: grayscale();
+    opacity: 1;
+}
+
+.cursor_follow {
+    width: .8rem;
+    height: .8rem;
+    position: absolute;
+    z-index: 6000;
+    pointer-events: none;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 100px 50px rgba(243, 228, 228, 0.884);
+    background-color: rgb(193, 224, 224);
+    transition: all 0s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+    z-index: 0;
+    backdrop-filter: grayscale();
+    opacity: 0;
+}
+
+.cursor_follow1 {
+    width: .8rem;
+    height: .8rem;
+    position: absolute;
+    z-index: 6000;
+    pointer-events: none;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 100px 50px rgba(33, 78, 76, 0.884);
+    background-color: rgb(133, 255, 255);
+    transition: all 0s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+    z-index: 0;
+    backdrop-filter: grayscale();
+    opacity: 0;
+}
+
+.cursor_follow4 {
+    width: 1.6rem;
+    height: 1.8rem;
+    position: absolute;
+    z-index: 6000;
+    pointer-events: none;
+    /* border-radius: 50%; */
+    transform: translate(-50%, -50%);
+    /* box-shadow: 0px 0px 80px 40px rgb(210 114 114 / 98%); */
+    background-image:url("../image/cursor/rocket.png");
+    background-color: rgba(243, 228, 228, 0);
+    color: rgba(243, 228, 228, 0);
+    transition: all 0s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+    z-index: 9999;
+    backdrop-filter: grayscale();
+    opacity: 0;
+}
+
+.Achivements_Block{
+    height: 100%;
+    width: 100%;
+/* z-index: 9999; */
+}
+
+
+/* .demo a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+  }
+  .demo a:hover {
+    opacity: .5;
+  } */
+  /* .Self-detail a {
+    padding-top: 60px;
+  }
+  .Self-detail a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb04 2s infinite;
+    animation: sdb04 2s infinite;
+    box-sizing: border-box;
+  }
+  @-webkit-keyframes sdb04 {
+    0% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+    }
+    20% {
+      -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+    }
+    40% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+    }
+  }
+  @keyframes sdb04 {
+    0% {
+      transform: rotate(-45deg) translate(0, 0);
+    }
+    20% {
+      transform: rotate(-45deg) translate(-10px, 10px);
+    }
+    40% {
+      transform: rotate(-45deg) translate(0, 0);
+    }
+  }
+   */
+
+   .downscroll{
+    position: relative;
+    top: 10%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+   }
+   .downScroll{
+ height: 100%;
+ width: 100%;
+
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-animation: sdb04 2s infinite;
+        animation: sdb04 2s infinite;
+        box-sizing: border-box;
+   }
+   @-webkit-keyframes sdb04 {
+    0% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+    }
+    20% {
+      -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+    }
+    40% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+    }
+  }
+  @keyframes sdb04 {
+    0% {
+      transform: rotate(-45deg) translate(0, 0);
+    }
+    20% {
+      transform: rotate(-45deg) translate(-10px, 10px);
+    }
+    40% {
+      transform: rotate(-45deg) translate(0, 0);
+    }
+  }
+  
+  
